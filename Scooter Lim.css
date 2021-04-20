@@ -1,0 +1,74 @@
+body {
+  background-image: url(Immagini/background.jpg);
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Contenitore {
+  margin: auto;
+  width: 62%;
+  height: auto;
+  margin-top: 2%;
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2.3%;
+}
+
+/* Logo e titolo */
+header img {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h2 {
+  font-family: arial;
+  color: rgb(0,230,0);
+  text-align: center;
+}
+
+/* Menù */
+nav {
+  margin-top: 0.5%;
+  padding: 1%;
+  background-color: rgb(0, 230, 0);
+  text-align: center;
+}
+
+/* Elenco monopattini */
+main h4 {
+  margin-top: 3%;
+  display: inline-block;
+  font-family: 'Quando', serif;
+  color: rgb(255,255,255);
+}
+
+main p {
+  color: rgb(215,215,215);
+}
+
+.Carica-Gino {
+  padding: 1.7%;
+  background-color: rgb(235,180,80);
+  border-radius: 5px;
+  width: 39%;
+}
+
+.Carica-Mike {
+  padding: 1.7%;
+  background-color: rgb(0,190,0);
+  border-radius: 5px;
+  width: 63%;
+}
+
+.Carica-Fede {
+  padding: 1.7%;
+  background-color: rgb(190,60,60);
+  border-radius: 5px;
+  width: 16%;
+}
